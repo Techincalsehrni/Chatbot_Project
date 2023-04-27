@@ -1,12 +1,8 @@
 #include<iostream>
 #include<conio.h>
-#include<dos.h>
 #include<string.h>
 #include<stdlib.h>
-#include <windows.h>
 using namespace std;
-
-
 int main ()
 {
  system("cls");
@@ -167,7 +163,7 @@ int main ()
 	      }//for petrol generator
 	      else
 	      {
-	       cout<<" As you want to buy diesel generator\n kindly mention how much capacity of genset are you planning for?\n";
+	       cout<<" As you want to buy diesel generator\n kindly mention how much capacity of genset are you planning for?"<<endl;
 	       cout<<"Kindly mention your genset need in kva here and press enter->\n";
 	       cin>>str;
 	       cout<<"kindly mention your following details\n so that we can share a estimate budget\n";
@@ -287,9 +283,6 @@ int main ()
 
   //for end coummunication program
    } //for start menu
-
-
-// closegraph();
  getch();
 }
 
