@@ -163,7 +163,7 @@ int main ()
 	      }//for petrol generator
 	      else
 	      {
-	       cout<<" As you want to buy diesel generator\n kindly mention how much capacity of genset are you planning for?"<<endl;
+	       cout<<" As you want to buy diesel generator, kindly mention how much capacity of genset are you planning for?"<<endl;
 	       cout<<"Kindly mention your genset need in kva here and press enter->\n";
 	       cin>>str;
 	       cout<<"kindly mention your following details\n so that we can share a estimate budget\n";
